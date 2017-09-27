@@ -7,21 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6FA2282605706D19ECD7E29D /* Pods_EShop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57859E591362184724DA4CE0 /* Pods_EShop.framework */; };
+		84123E9E1F443BFA00D9E2BD /* ShoppingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84123E9D1F443BFA00D9E2BD /* ShoppingItem.swift */; };
+		84125FD91F4A10E4005CD658 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84125FD81F4A10E3005CD658 /* Camera.swift */; };
+		841610271F1DEECD0029E727 /* ShoppingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841610261F1DEECD0029E727 /* ShoppingList.swift */; };
+		841610291F1DF1200029E727 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841610281F1DF1200029E727 /* Constants.swift */; };
+		841821AF1F4C159200733924 /* SearchItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841821AE1F4C159100733924 /* SearchItemViewController.swift */; };
+		841821B11F4C17B400733924 /* GroceryItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841821B01F4C17B400733924 /* GroceryItemTableViewCell.swift */; };
+		841821B31F4C207B00733924 /* GroceryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841821B21F4C207B00733924 /* GroceryItem.swift */; };
+		842CCA141F4768990068522D /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842CCA131F4768980068522D /* AddItemViewController.swift */; };
+		842CCA161F4778110068522D /* ShoppingItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842CCA151F4778110068522D /* ShoppingItemTableViewCell.swift */; };
+		842CCA181F4782080068522D /* SwipeTableViewHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842CCA171F4782080068522D /* SwipeTableViewHelpers.swift */; };
+		84C2DC2C1F4388C00056FAD7 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C2DC2B1F4388C00056FAD7 /* ListTableViewCell.swift */; };
+		84E88CD81F1F325F000DD392 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E88CD71F1F325F000DD392 /* Utilities.swift */; };
 		84EE26051F0F5FED00017156 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EE26041F0F5FED00017156 /* AppDelegate.swift */; };
-		84EE26071F0F5FED00017156 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EE26061F0F5FED00017156 /* ViewController.swift */; };
 		84EE260A1F0F5FED00017156 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84EE26081F0F5FED00017156 /* Main.storyboard */; };
 		84EE260C1F0F5FED00017156 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84EE260B1F0F5FED00017156 /* Assets.xcassets */; };
 		84EE260F1F0F5FED00017156 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84EE260D1F0F5FED00017156 /* LaunchScreen.storyboard */; };
+		84EE26171F0F620500017156 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84EE26161F0F620500017156 /* GoogleService-Info.plist */; };
+		84F24C9B1F1BE7B900FD9798 /* AllListsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F24C9A1F1BE7B900FD9798 /* AllListsViewController.swift */; };
+		84F693241F1CAC0100F0E0E2 /* ShoppingItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F693231F1CAC0100F0E0E2 /* ShoppingItemViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		40799BFEC003A3DB08FA14B3 /* Pods-EShop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EShop.release.xcconfig"; path = "Pods/Target Support Files/Pods-EShop/Pods-EShop.release.xcconfig"; sourceTree = "<group>"; };
+		57859E591362184724DA4CE0 /* Pods_EShop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EShop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84123E9D1F443BFA00D9E2BD /* ShoppingItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingItem.swift; sourceTree = "<group>"; };
+		84125FD81F4A10E3005CD658 /* Camera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		841610261F1DEECD0029E727 /* ShoppingList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingList.swift; sourceTree = "<group>"; };
+		841610281F1DF1200029E727 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		841821AE1F4C159100733924 /* SearchItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchItemViewController.swift; sourceTree = "<group>"; };
+		841821B01F4C17B400733924 /* GroceryItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroceryItemTableViewCell.swift; sourceTree = "<group>"; };
+		841821B21F4C207B00733924 /* GroceryItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroceryItem.swift; sourceTree = "<group>"; };
+		842CCA131F4768980068522D /* AddItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		842CCA151F4778110068522D /* ShoppingItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingItemTableViewCell.swift; sourceTree = "<group>"; };
+		842CCA171F4782080068522D /* SwipeTableViewHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeTableViewHelpers.swift; sourceTree = "<group>"; };
+		84C2DC2B1F4388C00056FAD7 /* ListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		84E88CD71F1F325F000DD392 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		84EE26011F0F5FED00017156 /* EShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84EE26041F0F5FED00017156 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84EE26061F0F5FED00017156 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84EE26091F0F5FED00017156 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84EE260B1F0F5FED00017156 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84EE260E1F0F5FED00017156 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84EE26101F0F5FED00017156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84EE26161F0F620500017156 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		84F24C9A1F1BE7B900FD9798 /* AllListsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllListsViewController.swift; sourceTree = "<group>"; };
+		84F693231F1CAC0100F0E0E2 /* ShoppingItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingItemViewController.swift; sourceTree = "<group>"; };
+		DECF0AAF751FE75FE98EAFAA /* Pods-EShop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EShop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EShop/Pods-EShop.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +61,69 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FA2282605706D19ECD7E29D /* Pods_EShop.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4529BD23A94E41D9081CEC58 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DECF0AAF751FE75FE98EAFAA /* Pods-EShop.debug.xcconfig */,
+				40799BFEC003A3DB08FA14B3 /* Pods-EShop.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		84123E9C1F44337600D9E2BD /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				84C2DC2B1F4388C00056FAD7 /* ListTableViewCell.swift */,
+				842CCA151F4778110068522D /* ShoppingItemTableViewCell.swift */,
+				841821B01F4C17B400733924 /* GroceryItemTableViewCell.swift */,
+			);
+			name = CustomCells;
+			sourceTree = "<group>";
+		};
+		841821AD1F4C153A00733924 /* ShoppingView */ = {
+			isa = PBXGroup;
+			children = (
+				84F24C9A1F1BE7B900FD9798 /* AllListsViewController.swift */,
+				84F693231F1CAC0100F0E0E2 /* ShoppingItemViewController.swift */,
+			);
+			name = ShoppingView;
+			sourceTree = "<group>";
+		};
+		84E88CD91F1F3A93000DD392 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				841610261F1DEECD0029E727 /* ShoppingList.swift */,
+				84123E9D1F443BFA00D9E2BD /* ShoppingItem.swift */,
+				841821B21F4C207B00733924 /* GroceryItem.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		84E88CDA1F1F3AAF000DD392 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				84E88CD71F1F325F000DD392 /* Utilities.swift */,
+				84125FD81F4A10E3005CD658 /* Camera.swift */,
+				841610281F1DF1200029E727 /* Constants.swift */,
+				842CCA171F4782080068522D /* SwipeTableViewHelpers.swift */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
 		84EE25F81F0F5FED00017156 = {
 			isa = PBXGroup;
 			children = (
 				84EE26031F0F5FED00017156 /* EShop */,
 				84EE26021F0F5FED00017156 /* Products */,
+				4529BD23A94E41D9081CEC58 /* Pods */,
+				92EF6E3F76AD793B22C51B98 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +139,27 @@
 			isa = PBXGroup;
 			children = (
 				84EE26041F0F5FED00017156 /* AppDelegate.swift */,
-				84EE26061F0F5FED00017156 /* ViewController.swift */,
+				841821AD1F4C153A00733924 /* ShoppingView */,
+				842CCA131F4768980068522D /* AddItemViewController.swift */,
+				841821AE1F4C159100733924 /* SearchItemViewController.swift */,
+				84123E9C1F44337600D9E2BD /* CustomCells */,
+				84E88CD91F1F3A93000DD392 /* Model */,
+				84E88CDA1F1F3AAF000DD392 /* Helper */,
 				84EE26081F0F5FED00017156 /* Main.storyboard */,
 				84EE260B1F0F5FED00017156 /* Assets.xcassets */,
 				84EE260D1F0F5FED00017156 /* LaunchScreen.storyboard */,
 				84EE26101F0F5FED00017156 /* Info.plist */,
+				84EE26161F0F620500017156 /* GoogleService-Info.plist */,
 			);
 			path = EShop;
+			sourceTree = "<group>";
+		};
+		92EF6E3F76AD793B22C51B98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57859E591362184724DA4CE0 /* Pods_EShop.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +169,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84EE26131F0F5FED00017156 /* Build configuration list for PBXNativeTarget "EShop" */;
 			buildPhases = (
+				19C01F409248E5793AA76207 /* [CP] Check Pods Manifest.lock */,
 				84EE25FD1F0F5FED00017156 /* Sources */,
 				84EE25FE1F0F5FED00017156 /* Frameworks */,
 				84EE25FF1F0F5FED00017156 /* Resources */,
+				0D3708B7FCD149DB39FBB33E /* [CP] Embed Pods Frameworks */,
+				0080CB7716EC2E8097F0C98A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84EE260F1F0F5FED00017156 /* LaunchScreen.storyboard in Resources */,
+				84EE26171F0F620500017156 /* GoogleService-Info.plist in Resources */,
 				84EE260C1F0F5FED00017156 /* Assets.xcassets in Resources */,
 				84EE260A1F0F5FED00017156 /* Main.storyboard in Resources */,
 			);
@@ -131,12 +233,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0080CB7716EC2E8097F0C98A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EShop/Pods-EShop-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0D3708B7FCD149DB39FBB33E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EShop/Pods-EShop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		19C01F409248E5793AA76207 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84EE25FD1F0F5FED00017156 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84EE26071F0F5FED00017156 /* ViewController.swift in Sources */,
+				84C2DC2C1F4388C00056FAD7 /* ListTableViewCell.swift in Sources */,
+				84E88CD81F1F325F000DD392 /* Utilities.swift in Sources */,
+				841610291F1DF1200029E727 /* Constants.swift in Sources */,
+				84F693241F1CAC0100F0E0E2 /* ShoppingItemViewController.swift in Sources */,
+				841821B11F4C17B400733924 /* GroceryItemTableViewCell.swift in Sources */,
+				84123E9E1F443BFA00D9E2BD /* ShoppingItem.swift in Sources */,
+				841821AF1F4C159200733924 /* SearchItemViewController.swift in Sources */,
+				842CCA141F4768990068522D /* AddItemViewController.swift in Sources */,
+				842CCA161F4778110068522D /* ShoppingItemTableViewCell.swift in Sources */,
+				842CCA181F4782080068522D /* SwipeTableViewHelpers.swift in Sources */,
+				84125FD91F4A10E4005CD658 /* Camera.swift in Sources */,
+				841610271F1DEECD0029E727 /* ShoppingList.swift in Sources */,
+				84F24C9B1F1BE7B900FD9798 /* AllListsViewController.swift in Sources */,
+				841821B31F4C207B00733924 /* GroceryItem.swift in Sources */,
 				84EE26051F0F5FED00017156 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +419,7 @@
 		};
 		84EE26141F0F5FED00017156 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DECF0AAF751FE75FE98EAFAA /* Pods-EShop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = EShop/Info.plist;
@@ -268,6 +432,7 @@
 		};
 		84EE26151F0F5FED00017156 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40799BFEC003A3DB08FA14B3 /* Pods-EShop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = EShop/Info.plist;
@@ -297,6 +462,7 @@
 				84EE26151F0F5FED00017156 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
